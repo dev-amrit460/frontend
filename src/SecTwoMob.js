@@ -76,17 +76,23 @@ const SecTwoMob = () => {
                 <div className="cardContainer">
                     <Splide
                         options={{
-                            rewind:true,
+                            rewind: true,
                             width: 669,
                             gap: '0rem',
                             perPage: 3,
                             perMove: 1,
                             autoplay: true,
-                            pagination:false,
+                            pagination: false,
                         }}
                     >{data.map(card)}</Splide>
 
                 </div>
+                <span className="Card" id="mobcard">
+                    <img src={phone} alt=""></img>
+                    <h2>Do you need support?</h2>
+                    <p className="para6">We glad to help!</p>
+                    <button id="btn1">CONTACT US</button>
+                </span>
             </div>
         </>
     );
