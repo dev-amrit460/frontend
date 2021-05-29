@@ -1,0 +1,250 @@
+.top {
+  position: relative;
+  width: 100vw;
+  height: 63px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px #ebebeb;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#infor {
+  width: 24px;
+  height: 24px;
+}
+#para1 {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  height: 24px;
+  color: #0047ab;
+  margin-left: 9px;
+  margin-top: 16px;
+}
+#logo {
+  background: url(./assets/UCLogo.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar {
+  margin-top: 4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+.nav-link {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  border-left: 1px solid gray;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
+}
+.nav-link:hover {
+  color: #0047ab !important;
+}
+.active {
+  color: #0047ab !important;
+}
+#about {
+  border: none;
+}
+.tel {
+  margin-right: 5vw;
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+#mobile {
+  color: #0047ab;
+  line-height: 22px !important;
+  height: 22px !important;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 9px;
+}
+.navbar-toggler {
+  margin-right: 16px;
+  transition: none !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.main {
+  width: 100vw;
+  background: linear-gradient(44.42deg, #fff1e1 28.4%, #ffffff 52.55%);
+  overflow: hidden;
+  position: relative;
+}
+
+.main .image {
+  background: url("./assets/home-hero.png");
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+.locEle {
+  background: linear-gradient(208.56deg, #ffc03d -29.1%, #ffc107 64.78%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.locEle #para3 {
+  color: #2B2D42;
+  margin: 0;
+  padding-left: 6px;
+}
+@media (max-width: 480px) {
+  .navbar{
+    height: 64px;
+  }
+  #para1 {
+    font-size: 14px;
+  }
+  #logo {
+    width: 150px;
+    height: 32px;
+    margin-left: 16px;
+  }
+  .main {
+    height: 155vw;
+  }
+  .main .image {
+    position: absolute;
+    width: 100vw;
+    height: 97.7vw;
+    top: 0;
+    left: 0;
+    background-position: -100px;
+    background-size: cover;
+  }
+  .main .text {
+    width: 100vw;
+    position: absolute;
+    top: 97.7vw;
+    left: 0;
+  }
+  .main .text h1 {
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    top: 24px;
+    height: 58px;
+    left: 16px;
+    line-height: 29px;
+    color: #2b2d42;
+  }
+  .main .text p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    color: #2b2d42;
+    left: 16px;
+    top: 90px;
+    height: 20px;
+  }
+  #btn {
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.12em;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    width: 328px;
+    height: 56px;
+    left: 16px;
+    top: 128px;
+    background-color: #0047ab;
+    border: none;
+  }
+  .locEle{
+    height: 17.77vw;
+  }
+  .locEle #para3{
+    line-height: 17px;
+    height: 17px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+@media (min-width: 1025px) {
+  .navbar{
+    height: 86px;
+  }
+  #para1 {
+    font-size: 16px;
+  }
+  #logo {
+    width: 200px;
+    height: 38.44px;
+    margin-left: 4.4vw;
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1px;
+    height: 500px;
+  }
+  #btn {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.12em;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    justify-content: center;
+    position: absolute;
+    width: 342px;
+    height: 66px;
+    left: 71px;
+    top: 309px;
+    background-color: #0047ab;
+    border: none;
+  }
+  .main .text {
+    width: 45.3%;
+  }
+  .main .text h1 {
+    font-weight: bold;
+    font-size: 48px;
+    position: absolute;
+    top: 96px;
+    height: 118px;
+    left: 71px;
+    line-height: 59px;
+    color: #2b2d42;
+  }
+  .main .text p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    position: absolute;
+    color: #2b2d42;
+    left: 71px;
+    top: 229px;
+    height: 29px;
+  }
+  .main .image {
+    width: 54.7%;
+    height: 500px;
+  }
+  .locEle{
+    height: 4.16vw;
+  }
+  .locEle #para3{
+    line-height: 20px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+  }
+}
