@@ -4,7 +4,7 @@ const Card2 = (props) => {
     return (
         <>
            <div className="cardBody">
-               <img src={props.link} alt=""/>
+               <img style={{zIndex:`2`}} src={props.link} alt=""/>
                <p className="head3">{props.head}</p>
                <p className="content">{props.content}</p>
             </div> 

@@ -4,6 +4,7 @@ import second from "./assets/Careviger2.svg"
 import third from "./assets/Careviger3.svg"
 import fourth from "./assets/Careviger4.svg"
 import Card2 from './Card2'
+import dot from "./assets/Group 49.svg";
 
 const Section3 = () => {
     const data1=[
@@ -42,6 +43,7 @@ const Section3 = () => {
                <div className="wrapper">
                {data1.map(card2)}
                </div>
+               <img id="dot" src={dot} alt="" />
             </div> 
         </>
     )
