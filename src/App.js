@@ -5,6 +5,7 @@ import location from "./assets/map-pin.svg";
 import Nav from "./Nav";
 import SecOne from "./SecOne";
 import SecTwo from "./SecTwo";
+import Section3 from "./Section3";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <p id="para3">UNIVERSACARE AREAS OF COVERAGE</p>
       </div>
       <SecTwo/>
+      <Section3/>
     </>
   );
 }

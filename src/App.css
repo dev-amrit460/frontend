@@ -182,7 +182,6 @@
   }
   .parent {
     display: none;
-
   }
   .parentmob {
     display: flex;
@@ -256,12 +255,68 @@
     flex-direction: row;
     align-items: center;
     padding: 23px 31px;
+    justify-content: center;
     background-color: #0047ab;
     border: none;
     width: 52.2vw;
     height: 4.58vw;
     color: white;
     font-weight: 700;
+  }
+  .upper {
+    display: flex;
+    flex-direction: column;
+    background: radial-gradient(
+        80.11% 80.11% at 50% 19.89%,
+        #f3f5f9 0%,
+        rgba(243, 245, 249, 0.5) 100%
+      ),
+      #ffffff;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .head2 p{
+    height: 58px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #2b2d42;
+    margin: 0px 32px;
+  }
+  .head2 b {
+    color: #ff8400;
+  }
+  .cardBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 48.9vw;
+    width: 100vw;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 56px;
+  }
+  .head3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #2b2d42;
+  }
+  .content {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    height: 60px;
+    color: #2b2d42;
+    width: 100%;
   }
 }
 
@@ -433,5 +488,66 @@
   }
   .parentmob {
     display: none;
+  }
+  .upper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 31.25vw;
+    background: radial-gradient(
+        80.11% 80.11% at 50% 19.89%,
+        #f3f5f9 0%,
+        rgba(243, 245, 249, 0.5) 100%
+      ),
+      #ffffff;
+    position: relative;
+  }
+  .head2 {
+    height: 2.92vw;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #2b2d42;
+  }
+  .head2 b {
+    color: #ff8400;
+  }
+  .wrapper {
+    height: 15.35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 11.39vw;
+    margin-right: 11.39vw;
+  }
+  .cardBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 15.35vw;
+    width: 15.35vw;
+  }
+  .head3 {
+    margin: 20px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    height: 44px;
+    width: 191px;
+    color: #2b2d42;
+  }
+  .content {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    height: 68px;
+    width: 15.35vw;
+    color: #2b2d42;
+    margin: 20px 0px;
   }
 }
