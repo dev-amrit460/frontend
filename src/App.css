@@ -100,6 +100,31 @@
 .parent {
   height: auto;
 }
+.Containertwo{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.column1 h3 {
+  font-weight: bold;
+  letter-spacing: -0.005em;
+  color: #2b2d42;
+} 
+.column2 p {
+  letter-spacing: -0.007em;
+  color: #2b2d42;
+}
+.row1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
 
 /* for mobile devices */
 
@@ -213,7 +238,6 @@
     margin-top: 12vw;
     width: 100vw;
     display: flex;
-    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -278,7 +302,7 @@
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  .head2 p{
+  .head2 p {
     height: 58px;
     font-weight: 500;
     font-size: 24px;
@@ -317,6 +341,32 @@
     height: 60px;
     color: #2b2d42;
     width: 100%;
+  }
+  .Containertwo{
+    justify-content: space-evenly;
+    height: 128.33vw;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .column1 h3 {
+    font-size: 23px;
+    line-height: 29px;
+    margin: 16px;
+  } 
+  .column2 p {
+    font-size: 16px;
+    line-height: 22px;
+    height: 88px;
+    margin: 16px;
+  }
+  .row1{
+    width: 100vw;
+    margin: 0;
+  }
+  .row2{
+    margin-left: 3.681vw;
+    width: 100vw;
+    margin: 0;
   }
 }
 
@@ -537,7 +587,7 @@
     text-align: center;
     letter-spacing: -0.005em;
     height: 44px;
-    width: 191px;
+    width: 180px;
     color: #2b2d42;
   }
   .content {
@@ -549,5 +599,30 @@
     width: 15.35vw;
     color: #2b2d42;
     margin: 20px 0px;
+  }
+  .Containertwo{
+    justify-content: flex-start;
+    height: 20.833vw;
+    padding-left: 11vw;
+    padding-right: 11vw;
+    
+  }
+  .column1 h3 {
+    font-size: 30px;
+    line-height: 37px;
+  } 
+  .column2 p {
+    font-size: 18px;
+    line-height: 29px;
+    height: 62px;
+    width: 830px;
+  }
+  .row1{
+    height: 11.55vw;
+  }
+  .row2{
+    height: 11.55vw;
+    margin-left: 3.681vw;
+    width: 862px;
   }
 }

@@ -6,6 +6,7 @@ import Nav from "./Nav";
 import SecOne from "./SecOne";
 import SecTwo from "./SecTwo";
 import Section3 from "./Section3";
+import Section4 from "./Section4";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       </div>
       <SecTwo/>
       <Section3/>
+      <Section4/>
     </>
   );
 }
