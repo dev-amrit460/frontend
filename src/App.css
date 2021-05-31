@@ -227,7 +227,7 @@
     font-weight: 500;
   }
   #onemob hr {
-    background: linear-gradient(0deg, #ffc03d 100%, #ff8b08 100%);
+    background: linear-gradient(180deg, #ffc03d 100%, #ff8b08 100%);
     border: 1.5px solid transparent;
     width: 37.78vw;
   }
@@ -275,15 +275,12 @@
     justify-content: space-evenly;
   }
   #btn1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 23px 31px;
-    justify-content: center;
+    display: grid;
+    place-content: center;
     background-color: #0047ab;
     border: none;
     width: 52.2vw;
-    height: 4.58vw;
+    height: 66px;
     color: white;
     font-weight: 700;
   }
@@ -455,7 +452,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 48px;
   }
   .card-in span h1 {
@@ -466,15 +463,16 @@
     color: #2b2d42;
   }
   .card-in span p {
+    width: 328px !important;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: -0.005em;
     height: 44px;
     font-weight: 500;
-    color: #2B2D42;
+    color: #2b2d42;
     margin: 0;
   }
-  .trick{
+  .trick {
     display: flex;
     flex-direction: row;
     padding: 0;
@@ -485,7 +483,6 @@
     width: 288px;
     height: 198px;
     display: flex;
-    margin: 0px 16px 0px 0px;
     flex-direction: column;
     justify-content: flex-start;
     padding: 19px 23px 13px 23px;
@@ -498,7 +495,7 @@
     height: 16px;
   }
   .card3 h1 {
-    width: 281px;
+    width: 250px;
     height: 24px;
     font-weight: 600;
     font-size: 18px;
@@ -513,8 +510,214 @@
     font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.005em;
-    color: #2B2D42;
+    color: #2b2d42;
     margin: 16px 0px;
+  }
+  .trick {
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: 963px;
+    overflow: hidden;
+    align-items: center;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    border-bottom: 1px solid #c4c4c4;
+    justify-content: space-evenly;
+    overflow: hidden;
+  }
+  .div3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    justify-content: space-between;
+    width: 328px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .div4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+  }
+  .div6 {
+    display: flex;
+    flex-direction: row;
+    width: 328px;
+    margin-top: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .log{
+    display: none;
+  }
+  .div2 {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    margin: auto;
+  }
+
+  .div2 p {
+    height: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    color: #2b2d42;
+  }
+  .div2 b {
+    color: #ff8b08;
+  }
+  .div5 {
+    width: 328px;
+    height: 174px;
+    margin: auto;
+  }
+  .div5 h3 {
+    height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF8400;
+    align-self: center;
+    margin: 15px 0px;
+  }
+  .div5 hr {
+    background: #ff8400;
+    border: 1.5px solid transparent;
+    width: 31px;
+  }
+  .div5 p {
+    width: 328px;
+    height: 112px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #2B2D42;
+  }
+  .div9 h3 {
+    height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF8400;
+    align-self: center;
+    margin: 15px 0px;
+  }
+  .div9 hr {
+    background: #ff8400;
+    border: 1.5px solid transparent;
+    width: 31px;
+  }
+  .div9 ul,.div10 ul {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0;
+  }
+  .div9 li,.div10 li {
+    height: 28px;
+    left: 22px;
+    font-size: 16px;
+    line-height: 172.4%;
+    color: #2b2d42;
+  }
+
+  .div9 li::before,.div10 li::before {
+    content: "o ";
+    font-weight: bold;
+    color: #ff8400; /* or whatever color you prefer */
+  }
+  .div10 h3 {
+    width: 103px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ff8400;
+    align-self: center;
+    margin: 15px 0px;
+  }
+  .div10 hr {
+    background: #ff8400;
+    border: 1.5px solid transparent;
+    width: 31px;
+  }
+  .div7 p {
+    width: 322px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5f6377;
+    margin: 0 !important;
+  }
+  input[type="email"] {
+    height: 42px;
+    background: #fcfcfd;
+    border: 1px solid #cfd0d7;
+    border-radius: 2px;
+    width: 328px;
+    padding: 16px;
+  }
+  .div7 {
+    height: 126px;
+    width: 328;
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .div7 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 42px;
+    background: #0047ab;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    align-self: flex-end;
+  }
+  .div8 {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .div11 {
+    display: flex;
+    flex-direction: row;
+    width: 188px;
+    justify-content: space-between;
+  }
+  .div12 {
+    display: flex;
+    flex-direction: row;
+    width: 227px;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  .div12 p {
+    margin: 0 !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 172.4%;
+    height: 28px;
+    color: #2b2d42;
   }
 }
 
@@ -670,10 +873,8 @@
     margin-top: 3.82vw;
   }
   #btn1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 23px 31px;
+    display: grid;
+    place-items: center;
     background-color: #0047ab;
     border: none;
     width: 13vw;
@@ -861,6 +1062,7 @@
     flex-direction: row;
     align-items: flex-start;
     margin-left: 35px;
+    overflow: hidden;
   }
   .card-in span {
     width: 250px;
@@ -888,7 +1090,7 @@
   .card3 {
     width: 327px;
     height: 210px;
-    margin: 0px 35px;
+    /* margin-right: 35px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -896,6 +1098,9 @@
     background: #ffffff;
     box-shadow: 0px 4px 4px #ebebeb;
     border-radius: 2px;
+  }
+  .trick .splide__slide {
+    margin-right: 35px !important;
   }
   .card3 img {
     width: 112px;
@@ -920,8 +1125,191 @@
     color: #2b2d42;
     margin: 19px 0px;
   }
-  .trick{
+  .trick {
     display: flex;
     flex-direction: row;
+    width: 800px;
+    overflow: hidden;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: 503px;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: row;
+    height: 398px;
+    border-bottom: 1px solid #c4c4c4;
+    padding-left: 11.388vw;
+    padding-right: 12.36vw;
+    justify-content: space-between;
+  }
+  .div3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 84px;
+    justify-content: space-between;
+    width: 51.6vw;
+  }
+  .div4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 84px;
+    padding-left: 32px;
+  }
+  .div6 {
+    display: flex;
+    flex-direction: row;
+    width: 337px;
+    justify-content: space-between;
+  }
+  .div2 {
+    padding-left: 164px;
+    display: flex;
+    align-items: center;
+    height: 105px;
+  }
+  .div2 p {
+    height: 28px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 172.4%;
+    color: #2b2d42;
+  }
+  .div2 b {
+    color: #ff8b08;
+  }
+  .div5 {
+    width: 246px;
+    height: 284.44px;
+  }
+  .div5 h3 {
+    width: 141px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ff8400;
+    align-self: center;
+    margin: 15px 0px;
+  }
+  .div5 hr {
+    background: #ff8400;
+    border: 1.5px solid transparent;
+    width: 31px;
+  }
+  .div5 p {
+    width: 246px;
+    height: 170px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 172.4%;
+    color: #2b2d42;
+    margin: 19px 0px;
+  }
+  .div9 h3 {
+    width: 103px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ff8400;
+    align-self: center;
+    margin: 15px 0px;
+  }
+  .div9 hr {
+    background: #ff8400;
+    border: 1.5px solid transparent;
+    width: 31px;
+  }
+  .div9 ul,.div10 ul {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0;
+  }
+  .div9 li,.div10 li {
+    height: 28px;
+    left: 22px;
+    font-size: 16px;
+    line-height: 172.4%;
+    color: #2b2d42;
+  }
+
+  .div9 li::before,.div10 li::before {
+    content: "o ";
+    font-weight: bold;
+    color: #ff8400; /* or whatever color you prefer */
+  }
+  .div10 h3 {
+    width: 103px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ff8400;
+    align-self: center;
+    margin: 15px 0px;
+  }
+  .div10 hr {
+    background: #ff8400;
+    border: 1.5px solid transparent;
+    width: 31px;
+  }
+  .div7 p {
+    width: 322px;
+    height: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5f6377;
+    margin: 0 !important;
+  }
+  input[type="email"] {
+    height: 42px;
+    background: #fcfcfd;
+    border: 1px solid #cfd0d7;
+    border-radius: 2px;
+    width: 323px;
+  }
+  .div7 {
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .div7 button {
+    display: grid;
+    place-content: center;
+    width: 128px;
+    height: 42px;
+    background: #0047ab;
+    border-radius: 2px;
+    color: white;
+    border: none;
+  }
+  .div8 {
+    margin-top: 38px;
+  }
+  .div11 {
+    display: flex;
+    flex-direction: row;
+    width: 188px;
+    justify-content: space-between;
+  }
+  .div12 {
+    display: flex;
+    flex-direction: row;
+    width: 227px;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  .div12 p {
+    margin: 0 !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 172.4%;
+    height: 28px;
+    color: #2b2d42;
   }
 }
